@@ -4,7 +4,7 @@
 }
 
 body {
-    background: no-repeat center right fixed url(https://raw.githubusercontent.com/guptprag/Resume/main/Shiva.jpg);
+    background: no-repeat center right fixed url(/Shiva.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -57,6 +57,7 @@ footer {
     margin: 1% 15%;
     height: 5px;
     background-color: black;
+    border: black;
 }
 
 .name {
@@ -147,7 +148,7 @@ footer {
 .project,
 .workexp,
 .education {
-    display: flex;
+    display: inline-flex;
     align-items: center;
 }
 
