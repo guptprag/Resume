@@ -126,7 +126,7 @@ footer {
     width: fit-content;
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
-    margin: auto;
+    margin: 3vh auto;
 }
 
 .heading2 {
@@ -146,18 +146,19 @@ footer {
     display: inline-block;
     width: 34%;
     min-width: 300px;
+    padding: 4vh 3vw 0 0;
 }
 
-.project,
+/* .project,
 .workexp,
 .education {
     display: inline-flex;
     align-items: center;
-}
+} */
 
 .description {
     display: inline-block;
-    width: 65%;
+    width: 52%;
     min-width: 300px;
-    padding: 60px 70px;
+    padding: 5vh 0;
 }
