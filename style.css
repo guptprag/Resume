@@ -70,23 +70,26 @@ footer {
 .about {
     width: 100vw;
     background-color: rgb(255, 255, 255);
+    align-items: center;
 }
 
 .aboutme {
     position: relative;
     display: inline-block;
     min-width: 300px;
-    width: 35vw;
+    width: 45vw;
     padding: 2%;
 }
 
 .about img {
+    display: block;
     width: 20vw;
     border-radius: 50%;
     border-style: dashed solid dotted;
     border-width: 3px;
     min-width:250px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+    margin: 5vh auto;
 }
 
 .contact {
