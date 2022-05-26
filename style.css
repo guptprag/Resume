@@ -4,7 +4,7 @@
 }
 
 body {
-    background: no-repeat center right fixed url(/Shiva.jpg);
+    background: no-repeat center right fixed url(Shiva.jpg);
     background-size: cover;
     background-position: center;
 }
