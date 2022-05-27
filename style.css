@@ -101,11 +101,6 @@ footer {
     margin: 5vh auto;
 }
 
-.contact {
-    width: 100vw;
-    background-color: rgb(255, 255, 255);
-}
-
 .contact ul li {
     display: inline-block;
     margin: 3%;
@@ -149,19 +144,19 @@ footer {
     width: fit-content;
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
-    margin: 3vh auto;
+    margin: 25px auto;
 }
 
 .heading2 {
-    width: 100%;
+    width: 94%;
+    margin: 0;
 }
 
 .projects,
 .workexps,
 .educations,
 .contact {
-    width: 85vw;
-    padding: 10% 5% 0% 10%;
+    padding: 7%;
     background-color: rgb(255, 255, 255);
 }
 
@@ -169,19 +164,20 @@ footer {
     display: inline-block;
     width: 34%;
     min-width: 300px;
-    padding: 4vh 3vw 0 0;
+    padding: 4vh 3vw;
 }
 
-/* .project,
+.project,
 .workexp,
 .education {
-    display: inline-flex;
-    align-items: center;
-} */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
 .description {
     display: inline-block;
-    width: 52%;
+    width: 55%;
     min-width: 300px;
-    padding: 5vh 0;
+    padding: 20px 0;
 }
