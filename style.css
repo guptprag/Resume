@@ -4,9 +4,9 @@
 }
 
 body {
-    background: no-repeat center right fixed url(Shiva.jpg);
+    background: no-repeat center right fixed url(background.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: right;
 }
 
 .navbar ul {
@@ -42,14 +42,23 @@ footer {
 }
 
 .navbar ul a:hover {
-    background-color: rgb(0, 119, 255);
+    background-color: rgb(255, 208, 0);
     border-radius: 9px;
+    color: black;
+    box-shadow: 0px 0px 4px 0px rgb(0, 0, 0), 0px 0px 10px 0px rgb(255, 217, 0);
+}
+
+.navbar ul a:active {
+    background-color: rgb(255, 208, 0);
+    border-radius: 9px;
+    color: black;
+    box-shadow: inset 0 0px 4px 0 rgba(0, 0, 0, 0.4), inset 0 0px 10px 0 rgba(0, 0, 0, 0.6);
 }
 
 .section {
     width: 100vw;
     height: 100vh;
-    background-color: rgba(99, 214, 243, 0.6);
+    background-color: rgba(252, 221, 84, 0.5);
     text-align: center;
 }
 
@@ -87,7 +96,7 @@ footer {
     border-radius: 50%;
     border-style: dashed solid dotted;
     border-width: 3px;
-    min-width:250px;
+    min-width: 250px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
     margin: 5vh auto;
 }
@@ -110,10 +119,24 @@ footer {
     border-radius: 10px;
     background-color: black;
     max-width: 100vw;
+    color: white;
 }
 
 .contact ul li a:hover {
-    background-color: grey;
+    background-color: rgb(255, 208, 0);
+    color: black;
+}
+
+.contact ul li a:active {
+    background-color: rgb(255, 208, 0);
+    color: black;
+    box-shadow: inset 0 4px 8px 0 rgba(0, 0, 0, 0.4), inset 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+}
+
+.contact ul li a p {
+    font-size: medium;
+    padding: 5%;
+    margin: 0% auto;
 }
 
 .heading,
