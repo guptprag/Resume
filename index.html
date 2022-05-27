@@ -11,18 +11,32 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="logo.jpg">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myNavbar");
+          if (x.className === "navbar") {
+            x.className += " responsive";
+          } else {
+            x.className = "navbar";
+          }
+        }
+    </script>
 </head>
 
 <body>
     <header>
-        <div class="navbar">
-            <ul style="font-family: 'Comfortaa', cursive;">
-                <li><a href="#profile">Home</a></li>
-                <li><a href="#educations">Education</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#workexps">Work Experience</a></li>
-                <li><a href="#contactme">Contact</a></li>
-            </ul>
+        <div class="navbar" id="myNavbar">
+            <p>Pragya Gupta</p>
+            <a href="#profile" onclick="return myFunction();">Home</a>
+            <a href="#educations" onclick="return myFunction();">Education</a>
+            <a href="#projects" onclick="return myFunction();">Projects</a>
+            <a href="#workexps" onclick="return myFunction();">Work Experience</a>
+            <a href="#contactme" onclick="return myFunction();">Contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
         </div>
     </header>
     <main>
@@ -187,7 +201,7 @@
         </div>
         <div class="contact" id="contactme">
             <h1 class="heading">Contact</h1>
-            <ul style="display: inline; padding:0; text-align:center;">
+            <ul style="display: flex; flex-wrap:wrap; justify-content:center; padding:0; text-align:center;">
                 <li>
                     <a href="mailto:gupta123pragya@gmail.com" style="text-decoration:none; margin:auto">
                         <img src="gmail.png" style="height: 30%; padding-top: 10%">
